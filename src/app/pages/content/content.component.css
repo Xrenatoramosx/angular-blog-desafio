@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+.container__content-main{
+  margin-top: 10px;
+}
+
 .content__cover > img{
   border:5px solid rgb(144, 144, 144);
   border-radius: 5px;
@@ -26,4 +30,11 @@
 .content__description > p{
   margin-top: 20px;
   color: rgb(198, 197, 197);
+}
+
+.content__description > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
 }
